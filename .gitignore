@@ -1,0 +1,52 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Logs
+*.log
+
+# Captured lab artifacts (should not be committed — see docs/lab-guidelines.md)
+*.pcap
+*.pcapng
+*.mem
+*.raw
+*.dd
+*.img
+loot/
+evidence/local/
+
+# Compiled reverse engineering artifacts
+*.o
+*.obj
+*.exe
+*.bin
+!challenges/**/samples/*.bin
+
+# Archives (avoid accidentally committing large binaries)
+*.zip
+*.tar.gz
+*.7z
+
+# Environment / secrets
+.env
+*.pem
+*.key
